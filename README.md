@@ -21,7 +21,7 @@ note.sh is a simple shell-based note-taking tool for capturing ideas quickly in 
    - **Navigating to the Folder**:
      - Use the `cd` (change directory) command to navigate to the folder containing `note.sh`. For example, if `note.sh` is in a folder called `scripts` on your Desktop, you would use the following commands:
        ```bash
-       cd ~/Desktop/downloads
+       cd ~/Desktop/scripts
        ```
      - If you are unsure of the path, you can drag and drop the folder into the terminal window after typing `cd ` (note the space after `cd`), and it will automatically fill in the path for you.
 3. Make the script executable (so you can actually run it):  

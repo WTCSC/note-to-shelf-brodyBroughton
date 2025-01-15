@@ -38,10 +38,10 @@ fi
 if [ "$1" = "list" ]; then
     if [ -s "notes.txt" ]; then
         cat notes.txt
-        echo exit 0
+        exit 0
     else
         echo "No notes found"
-        echo exit 1
+        exit 1
     fi
 fi
 
@@ -49,10 +49,10 @@ fi
 if [ "$1" = "search" ]; then
     if [ -n "$2" ]; then
         grep -i "$2" notes.txt
-        echo exit 0
+        exit 0
     else
         echo "Error: No search keyword provided"
         Help
-        echo exit 1
+        exit 1
     fi
 fi
