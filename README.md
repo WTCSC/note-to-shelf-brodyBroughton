@@ -4,12 +4,27 @@
 # Note to Shelf
 
 ## Overview
-Note Taking App Script File Pro Max Plus 3000 Ultra Super Edition with HyperDrive Quantum Technology and Turbocharged Performance. note.sh is a simple shell-based note-taking tool for capturing ideas quickly in the terminal. It timestamps entries and handles errors (like missing arguments).
+note.sh is a simple shell-based note-taking tool for capturing ideas quickly in the terminal, and allows for easy access to notes and thoughts. It also includes timestamped entries to help users stay on track with their tasks, as well as sophisticated error handling that streamlines the note-taking process.
 
 ## Installation
-1. Clone or download this repository.  
-2. Open the terminal and navigate to the folder containing `note.sh`.  
-3. Make the script executable:  
+1. Clone this repository. Enter your terminal, and paste the following code.: 
+    ```
+    git clone https://github.com/brodyBroughton/note-to-shelf-brodyBroughton.git
+    ```
+2. Open a **bash** terminal and navigate to the folder containing `note.sh`:
+
+   - **Opening a Bash Terminal**: 
+     - On **Windows**, you can use Git Bash or the Windows Subsystem for Linux (WSL). If you have Git Bash installed, you can find it in your Start menu. For WSL, open the Start menu, type "WSL" or "Ubuntu" (if you have Ubuntu installed), and open it.
+     - On **macOS**, you can use the built-in Terminal application. Open Spotlight Search (Cmd + Space), type "Terminal," and press Enter.
+     - On **Linux**, you can use the built-in terminal. Open your application menu, search for "Terminal," and open it.
+
+   - **Navigating to the Folder**:
+     - Use the `cd` (change directory) command to navigate to the folder containing `note.sh`. For example, if `note.sh` is in a folder called `scripts` on your Desktop, you would use the following commands:
+       ```bash
+       cd ~/Desktop/downloads
+       ```
+     - If you are unsure of the path, you can drag and drop the folder into the terminal window after typing `cd ` (note the space after `cd`), and it will automatically fill in the path for you.
+3. Make the script executable (so you can actually run it):  
     ```
     chmod +x note.sh
     ```
