@@ -47,3 +47,15 @@ if [ "$1" = "list" ]; then
         echo exit 1
     fi
 fi
+
+# Search for a note
+if [ "$1" = "search" ]; then
+    if [ -n "$2" ]; then
+        grep -i "$2" notes.txt
+        echo exit 0
+    else
+        echo "Error: No search keyword provided"
+        Help
+        echo exit 1
+    fi
+fi
