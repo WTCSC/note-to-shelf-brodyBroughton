@@ -1,11 +1,8 @@
 #!/bin/bash
-
-echo "Welcome to the Note Taking App Script File Pro Max Plus 3000 Ultra Super Edition with HyperDrive Quantum Technology and Turbocharged Performance"
-echo
-
 Help()
 {
     # Display Help
+    echo "Welcome to the Note Taking App Script File Pro Max Plus 3000 Ultra Super Edition with HyperDrive Quantum Technology and Turbocharged Performance"
     echo "Note taking app commands"
     echo
     echo "options:"
